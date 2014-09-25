@@ -1,0 +1,178 @@
+html {
+	font-size: 26px;
+}
+
+body {
+	margin: 0;
+	background-color: rgb(245, 240, 240);
+}
+
+p {
+	margin: 30px 4vw;
+	font-size: 1.2rem;
+	font-family: Georgia;
+}
+
+h1 {
+	font-size: 3.1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+section {
+	padding: 20px 0;
+	margin-bottom: 4vw;
+}
+
+section:first-child {
+	padding-top: 0;
+}
+
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.selfie {
+	float: right;
+	margin: 0 0 -1px 20px;
+	position: relative;
+	background: #37A8C4;
+	font-size: 0;
+}
+
+/*.selfie::before {
+	content: "";
+	display: block;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	width: 30%;
+	background: #37A8C4;
+}*/
+
+.selfie img {
+	max-height: 504px;
+	opacity: .5;
+}
+
+.intro {
+	margin-bottom: 0;
+}
+
+.intro::before {
+	content: "";
+	display: table;
+}
+
+.personal-primary {
+	margin: 120px 0 0 4vw;
+	text-align: center;
+}
+
+.personal-primary .inner {
+	display: inline-block;
+	text-align: left;
+	text-shadow: 1px 1px 0 white;
+}
+
+.personal-secondary {
+	clear: right;
+	margin: 0 0 0 4vw;
+	padding: 30px 4vw 30px 0;
+	border-top: 1px solid #37A8C4;
+}
+
+.illustration {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.page-footer {
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.work-example {
+	/*box-shadow: 0 0 10px 0 black;*/
+	border: 1px solid rgba(0, 0, 0, .5);
+	margin: 10px;
+}
+
+.research-and-interest {
+	margin-right: 4vw;
+	background-color: rgb(255, 142, 0);
+}
+
+.research-and-interest p {
+	padding-right: 0;
+}
+
+.analytical-thinking {
+	margin-left: 4vw;
+	background-color: rgb(147, 185, 48);
+}
+
+.analytical-thinking p {
+	padding-left: 0;
+}
+
+.mobile-box {
+	text-align: center;
+	background-color: rgb(114, 185, 218);
+	margin-right: 4vw;
+}
+
+.mobile-box p {
+	padding-right: 0;
+}
+
+.page-footer {
+	background-color: black;
+	color: white;
+	padding: 10px 4vw;
+	font-size: 0.9rem;
+}
+
+.contact-me {
+	white-space: nowrap;
+}
+
+.phone-number {
+	float: left;
+	color: #589B23;
+	text-decoration: none;
+}
+
+.email {
+	float: right;
+	color: #589B23;
+	text-decoration: none;
+}
+
+.fancybox {
+	display: inline-block;
+}
+
+.plate {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5), 1px 1px 3px 0 rgba(0, 0, 0, .5);
+}
+
+.plate p {
+	font-size: 1rem;
+}
+
+
+
+
+
+@media (max-width: 1190px) {
+	html {
+		font-size: 21px;
+	}
+}
