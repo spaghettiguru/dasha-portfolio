@@ -181,3 +181,14 @@ section:first-child {
 		font-size: 21px;
 	}
 }
+
+@media (max-width: 740px) {
+	.title-primary {
+		clear: right;
+		margin-top: 20px;
+	}
+
+	.selfie {
+		float: none;
+	}
+}
