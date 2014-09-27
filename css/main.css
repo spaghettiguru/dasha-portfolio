@@ -9,9 +9,10 @@ body {
 
 p {
 	margin: 30px 4vw;
-	font-size: 1.2rem;
-	font-family: Georgia;
+	font-size: 1.25rem;
 	line-height: 1.4;
+	font-family: "Open Sans";
+	font-weight: 200;
 }
 
 h1 {
@@ -169,7 +170,7 @@ section:first-child {
 }
 
 .plate p {
-	font-size: 1.05rem;
+	font-size: 1.1rem;
 }
 
 
