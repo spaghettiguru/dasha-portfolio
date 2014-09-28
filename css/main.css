@@ -118,7 +118,7 @@ section:first-child {
 
 .research-and-interest {
 	margin-right: 4vw;
-	background: linear-gradient(-45deg, rgb(255, 142, 0) 25%, rgb(255, 184, 0))
+	background: linear-gradient(-45deg, rgb(255, 142, 0) 25%, rgb(255, 194, 0))
 }
 
 .research-and-interest p {
@@ -127,7 +127,7 @@ section:first-child {
 
 .analytical-thinking {
 	margin-left: 4vw;
-	background: linear-gradient(-45deg, rgb(147, 185, 48) 25%, rgb(185, 180, 48));
+	background: linear-gradient(-45deg, rgb(147, 185, 48) 25%, rgb(187, 228, 56));
 }
 
 .analytical-thinking p {
@@ -136,7 +136,7 @@ section:first-child {
 
 .mobile-box {
 	text-align: center;
-	background: linear-gradient(-45deg, rgb(114, 185, 218) 25%, rgb(114, 214, 218));
+	background: linear-gradient(-45deg, rgb(114, 185, 218) 25%, rgb(123, 230, 235));
 	margin-right: 4vw;
 }
 
@@ -150,13 +150,13 @@ section:first-child {
 
 .phone-number {
 	float: left;
-	color: #589B23;
+	color: rgb(255, 142, 0);
 	text-decoration: none;
 }
 
 .email {
 	float: right;
-	color: #589B23;
+	color: rgb(255, 142, 0);
 	text-decoration: none;
 }
 
