@@ -80,7 +80,7 @@ section:first-child {
 
 .title-secondary {
 	margin-left: 4vw;
-	margin-top: 10px;
+	margin-top: 0;
 	color: gray;
 }
 
@@ -127,7 +127,7 @@ section:first-child {
 
 .analytical-thinking {
 	margin-left: 4vw;
-	background: linear-gradient(-45deg, rgb(147, 185, 48) 25%, rgb(187, 228, 56));
+	background: linear-gradient(-45deg, rgb(158, 196, 59) 25%, rgb(187, 228, 56));
 }
 
 .analytical-thinking p {
@@ -150,13 +150,13 @@ section:first-child {
 
 .phone-number {
 	float: left;
-	color: rgb(255, 142, 0);
+	color: rgb(250, 140, 140);
 	text-decoration: none;
 }
 
 .email {
 	float: right;
-	color: rgb(255, 142, 0);
+	color: rgb(250, 140, 140);
 	text-decoration: none;
 }
 
